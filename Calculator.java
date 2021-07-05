@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Stack;
 
 /**
  * A simple Calculator, is only able to calculate expressions with two values.
@@ -53,6 +54,13 @@ public class Calculator {
         }
 
         return evaluate(val1, operator, val2);
+    }
+
+    public double alternateInterpret(String input){
+
+
+
+        return 0.0;
     }
 
     /**
